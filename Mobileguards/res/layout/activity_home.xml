@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:text="功能列表"
+        style="@style/TilteStyle"
+        
+        />
+    
+<!-- 
+<TextView 
+    android:text="秋天来了.适合带着女朋友去拍一套美美的照片,记忆着你们曾经的青春"
+    android:textColor="#000"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="5dp"
+    android:ellipsize="marquee"
+    /> -->
+ <com.itheima.mobilesafe74.view.FocusTextView
+    android:text="秋天来了.适合带着女朋友去拍一套美美的照片,记忆着你们曾经的青春"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:textColor="#000"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:padding="5dp"
+    android:ellipsize="marquee" >
+        
+ </com.itheima.mobilesafe74.view.FocusTextView>   
+  <GridView 
+     android:layout_width="match_parent" 
+     android:layout_height="match_parent"
+     android:id="@+id/gr_root"
+     android:numColumns="3"
+     android:verticalSpacing="40dp"
+      >
+      
+      
+  </GridView>  
+</LinearLayout>
